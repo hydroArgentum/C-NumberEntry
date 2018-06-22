@@ -17,6 +17,8 @@
 #ifndef CPPNUMBERENTRY_NUMBERENTRY_H
 #define CPPNUMBERENTRY_NUMBERENTRY_H
 
+// Please only include files if they are necessary for the function definitions
+// listed here.
 #include <vector>
 
 void populate_int_vector(std::vector<int>& intVector);
