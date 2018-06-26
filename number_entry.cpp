@@ -13,4 +13,25 @@
  * prompted to select witch index to edit. Then, the user will be prompted to  *
  * enter a new number.                                                         *
  ******************************************************************************/
-// Preprocessor 
+// Preprocessor
+// Includes
+// Standard Vector library
+#include <vector>
+// Standard IOStream library
+#include <iostream>
+
+void populate_int_vector(std::vector<int>& intVector)
+{
+
+}
+
+namespace numberentry
+{
+  void display_current_numbers(std::vector<int>& intVector)
+  {
+    if (intVector.size() == 0)
+    {
+      std::cout << "No numbers have been entered." << std::endl;
+    }
+  }
+}
