@@ -29,9 +29,14 @@ namespace numberentry
 {
   void display_current_numbers(std::vector<int>& intVector)
   {
+    // Display the numbers currently in the vector unless there aren't any.
     if (intVector.size() == 0)
     {
       std::cout << "No numbers have been entered." << std::endl;
+    }
+    for (int index = 0; index < intVector.size(); index++)
+    {
+
     }
   }
 }
